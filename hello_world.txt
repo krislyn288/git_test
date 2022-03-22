@@ -1,2 +1,7 @@
-hello KRISLYN
-WElcome to GIT and ODIN
+i
+hello krislyn
+thisis odin project
+it isfun!!
+
+
+
