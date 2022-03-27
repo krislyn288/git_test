@@ -1,37 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Krislyn Coding Cheet Sheet</title>
 </head>
-<Title>Krislyn Coding Cheet Sheet</Title>
-<h1> GIT HUB codes</h1> 
+<h1> GIT HUB codes</h1>
 
 <body>
-   
-        <h2>Most important</h2>
-        <p>
+    <h2>Most important</h2>
+    <p>
+    <ul>
+        <li> Commands related to checking status or log history
             <ul>
-                <li> Commands related to checking status or log history
-                    <ul>
-                        <li>git status </li>
-                        <li>git log</li> 
-                    </ul>
-               <li>Commands related to the workflow:
-                    <ul>
-                        <li>git add</li>
-                        <li>git add .</li>
-                        <li>git commit -m "message"</li> 
-                        <li> git push</li>
-                    </ul>            
-                <li>Commands related to a remote repository:</li>
-                    <ul> 
-                        <li>git clone git@github.com:USER-NAME/REPOSITORY-NAME.git</li>
-                        <li>git push or git push origin main</li>
-                    </ul>
+                <li>git status </li>
+                <li>git log</li>
             </ul>
+        <li>Commands related to the workflow:
+            <ul>
+                <li>git add</li>
+                <li>git add .</li>
+                <li>git commit -m "message"</li>
+                <li> git push</li>
+            </ul>
+        <li>Commands related to a remote repository:</li>
+        <ul>
+            <li>git clone git@github.com:USER-NAME/REPOSITORY-NAME.git</li>
+            <li>git push or git push origin main</li>
+        </ul>
+        <li>git config --global core.editor "code --wait" ------- > allow visual code to write commit messages</li>
+        <li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics#new-github-repo">
+                learn to make a repository on odin project</a></li>
+        <li> set your local default git branch to main: git config --global init.defaultBranch main </li>
+        <li>Clone your repository from GitHub onto your computer with <b>git clone </b>followed by the URL you copied.
+            The full command should look similar to git clone git@github.com:USER-NAME/REPOSITORY-NAME.git. </li>
+        <li>git remote -v ---> displays the URL of the repository you created on GitHub, which is the remote for your
+            local copy. r</li>
+    </ul>
+    </p>
+    <section>
+        <h2>Imp short cuts on <b>VISUAl STUDIO CODE</b></h2>
+        <p>Indent select line lines <br>
+            Select the lines you want to indent, and use <b>Ctrl + ]</b> to indent them.
         </p>
+        <p>Indent section <br>
+            Smart indent -- > <b> Crtl+K, Crtl+F</b><br>
+            Select the lines you want to format, use <b>Ctrl + K, Ctrl + F</b> to format them. 
+        </p>
+        <p>Toggle line comment --- > <b>Ctrl+/</b> <br>
+            Toggle block comment -- > <b> Ctrl+Shift+A</b>
+        </p>
+        <p> Select line -- > <b> Clrl+L </b> <br>
+            Select all occurances of the selection in a section -- > <b> Clrl+Shift+L </b></p>
+        </p>
+        <p> Select whole document -- > <b> Clrl+A </b> <br>
+            Select many lines -- > select start line --- > press <b> Clrl+Shift+A </b> select end line </p><br>
+        Move line down/up -- > <b>Alt+ ↓ / ↑</b><br>
+        Insert line below --> <b>Crl+Enter</b><br>
+        Insert line above -- > <b>Ctrl+Shift+Enter</b><br>
+        </p>
+    </section>
+    <section>
+        <h2>HTML BOILERPLATE</h2>
+        <h3>most imp </h3><br>
+        <p>
+            DOCTYPE<br>
+            html lang <br>
+            HEAD section <br>
+            Title -- page NAME <br>
+            header
+        </p>
+    </section>
+    <!-- <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Webpage</title>
+    </head> -->
+
+
+    <h1>Hello World!</h1>
 </body>
+
+<h2>HTML tags</h2>
+<p>
+<ul>
+    <li>open tag ----- >content ----- > closed tag </li>
+    <li>eg: title -- > header -->section --> h1/h2/h3 --> p --> Footer</li>
+    <li> </li>
+</ul>
+</p>
+<h2>Tag types </h2>
+<ul>
+    <li>Block Tags</li>
+    <li>Inline Tage</li>
+</ul>
+<ul>
+    <li>HEADER --- > subtags are --> h1, h2, h3 -- H6, p, </li>
+    <!-- <header>
+                <h1>JavaScript</h1>
+                <h3>What is JavaScript?</h3>
+                <p>Today we are going to talk about JavaScript</p>
+              
+            </header> -->
+    <li>navigation----> "nav" depicts the space for navigation links on your website</li>
+    <!-- <nav>
+                    <ul>
+                        <li><a href="https://www.bitdegree.org/tag/gamified/">Gamified Courses</a></li>
+                        <li><a href="https://www.bitdegree.org/tutorials/">Tutorials</a></li>
+                        <li><a href="https://www.bitdegree.org/course/learn-solidity-space-doggos/">Space doggo courses</a></li>
+                        <li><a href="https://www.bitdegree.org/tag/game-dev/">Game Dev Courses</a></li>
+                    </ul>
+                    </nav> -->
+</ul>
+<section>
+    <h3>LIST TAGS</h3>
+    lists ---- > <em> ordered (ol,li)/ un ordered (ul, li)/ descriptive (dl,dt, dd)</em>
+
+    <h2>Use of link tag "a"</h2>
+        <a href="https://www.bitdegree.org/learn/anchor-tag/#ltagt" target="_blank">HTML a element--> link tag</a>
+        <p>Download the linked imaged <br>
+            <a href="/images/bitdegree/spaceDoggo.png" download>Download image</a><br>
+            Attributes used<br>
+            <li>target - where to open the document ------> <i>_self;_blank;_parent;_top</i></li>
+            <li>rel - relationship between the linked document and the current document <br></li>
+            <li>--------><i>nofollow, noopener-cannot access the window object;noreferrer;prev-->referenced document belongs to the same series as the current one and comes before it.</i></li>
+
+
+        </p>
+    <h2>Use of address within the article</h2>
+    <article>
+        <h2>HTML Explained</h2>
+        <p>HTML is a universal language and one of the easiest for beginners to learn. </p>
+        <address>
+            Written by <a href="mailto:@bitdegree.org">Bitdegree</a>.
+            Visit us at:
+            https://www.bitdegree.org/
+            <br>
+        </address>
+        </p>
+    </article>
+    <h2> Use of area</h2>
+    <p>
+        <img src="https://cdn.bitdegree.org/learn/space%20gif.gif?raw=true" width="500" height="600" alt="Creatures"
+            usemap="#creaturemap"><!-- usemap provides referring  name to he image -->
+        <map name="creaturemap">
+            <!-- creates a clickable image, provide a reference name to the image  -->
+            <!-- define the clickable area dimensions -->
+            <area shape="rect" coords="34, 44, 270, 350" alt="Doggo" href="https://www.bitdegree.org">
+            <area shape="rect" coords="290, 172, 333, 250" alt="Gaming" href="http://www.bitdegree.org">
+            <area shape="circle" coords="337, 300, 44" alt="Level up" href="http://www.bitdegree.org">
+        </map>
+    </p>
+    <h2> Use of Article</h2>
+    <article class="blog_post">
+        <p>My first blog post, I am a real blogger now.</p>
+        <footer>
+
+            <p>Validate your HTM code @</br>
+                <a rel= "_blank" href="https://validator.w3.org/"><b>HTML validator</b></a>
+            </p>
+            <p>Other tags and details <br>
+                <a rel = "external" href="https://www.bitdegree.org/learn/html-tags/" target= "_blank"><b>ALL HTML TAGS </b></a>
+
+
+            </p>
+
+</section>
 </html>
